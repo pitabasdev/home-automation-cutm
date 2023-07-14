@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+    <title>About Us</title>
+    <style>
+        * {
+            font-family: "Poppins";
+        }
+
+        .card {
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(52, 70, 41, 0.712);
+            transition: 0.3s;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(9, 184, 9, 0.767);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home Automation🏡</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home">Home 🏡</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container ">
+        <div class="row mt-4">
+            <div class="col">
+                <h1 class="display-3 text-center text-success" style="font-weight: 600">
+                    Team
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col d-flex align-items-center">
+                        <div class="card text-center p-3" style="width: 20em" data-aos="flip-right"
+                            data-aos-delay="500">
+                            <img src="/img/aa.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Ashish Ranjan Dash</h5>
+                                <p class="card-text">Dean , SOET</p>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="https://www.linkedin.com/in/ashish-ranjan-dash-9b1b1b1b/"><i
+                                                class="fa-brands fa-linkedin-in fa-2x text-dark"></i>
+                                        </a>
+
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <a href="https://www.facebook.com/ashish.r.dash.1"><i
+                                                class="fa-brands fa-facebook fa-2x text-dark"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="https://www.instagram.com/ashish_ranjan_dash/"><i
+                                                class="fa-brands fa-instagram fa-2x text-dark"></i>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center p-3" style="width: 20em" data-aos="flip-right"
+                            data-aos-delay="500">
+                            <img src="/img/FB_IMG_1602074636678.jpg" class="card-img-top img-fluid" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Pitabas Pradhan</h5>
+                                <p class="card-text">
+                                    B.Tech (CSE) -2024 <br />
+                                </p>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-sm-4 ">
+                                        <a href="https://www.linkedin.com/in/ashish-ranjan-dash-9b1b1b1b/"><i
+                                                class="fa-brands fa-linkedin-in fa-2x text-dark"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <a href="https://www.facebook.com/ashish.r.dash.1"><i
+                                                class="fa-brands fa-facebook fa-2x text-dark"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="https://www.instagram.com/ashish_ranjan_dash/"><i
+                                                class="fa-brands fa-instagram fa-2x text-dark"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 350px;">
+        <%- include('./footer.ejs')%>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
