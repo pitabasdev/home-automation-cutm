@@ -50,7 +50,6 @@ app.get("/home", (req, res) => {
     }
 });
 app.post("/reg", async (req, res) => {
-    console.log(req.body);
     const { name, email, password: plaintextpassword, specialaccess } = req.body;
     if (!name || typeof name !== "string") {
         return res.json({ status: "error", error: "Invalid Name" });
